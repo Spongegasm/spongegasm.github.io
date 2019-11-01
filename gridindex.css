@@ -52,11 +52,11 @@ header {
 }
 
 .skew1:hover{
-  transform: rotate(-.5deg);
+  transform: rotate(0deg);
 }
 
 .skew2:hover{
-  transform: rotate(.5deg);
+  transform: rotate(0deg);
 }
 .skew2{
   transform: rotate(-1.5deg);
