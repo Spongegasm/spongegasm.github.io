@@ -5,7 +5,7 @@ body {
   min-width: auto;
   min-height: 100vh;
   grid-template-rows: min-content 1fr min-content;
-  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-columns: 1fr 4fr;
   margin: 0;
   background-image: url("bgnew.png")
 }
@@ -104,19 +104,10 @@ header {
 /*main*/
 main {
   grid-row: 2;
-  grid-column: 2/3;
+  grid-column: 2/4;
   padding: 0 20px;
   border: 1px solid;
   background-color: blue;
-}
-/*end of main*/
-
-aside{
-  grid-row: 2;
-  grid-column: 3/4;
-  padding: 0 10px;
-  border: 1px solid;
-  background-color: pink;
 }
 
 footer{
@@ -139,7 +130,8 @@ h1 {
   grid-row: 3;
   background-color: #ffdd19;
   display: inline-block;
-  padding: 10px 3px 5px 3px;
+  padding: 10px 10px 5px 3px;
+  margin-left: 40px;
 }
 
 .h1{
