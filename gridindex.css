@@ -45,6 +45,14 @@ header {
 }
 /*n AXTRAS*/
 
+.skew1{
+  transform:rotate(2deg);
+}
+
+.skew2{
+  transform: rotate(-2deg);
+}
+
 .dropdown {
   position: relative;
   display: inline-block;
