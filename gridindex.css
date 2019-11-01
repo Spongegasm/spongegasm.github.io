@@ -137,9 +137,11 @@ h1 {
   font-family: 'Manjari', sans-serif;
   grid-column: 1/4;
   grid-row: 3;
+  margin: 1em 0.5em 1em 0em;
+  padding: 10px 26px;
   height: 10px;
   display: flex;
-  text-align: center;
+  text-align: left;
   flex-wrap: wrap;
 }
 
