@@ -25,22 +25,22 @@ header {
   grid-column: 1/2;
   padding: 10px 10px;
   border: 0px;
-  background: rgba(0,0,0,0.8);
+  background: #bb2245;
   color: black;
 }
 
 .sidenav a, .dropdownbtn {
-  padding: 6px 8px 6px 16px;
+  padding: 8px 8px 8px 16px;
+  margin-bottom: 7px;
   text-decoration: none;
   font-size: 20px;
-  color: #818181;
+  color: #bb2245;
+  background-color: #0fab87;
   display: block;
   border: none;
-  background: none;
   width:100%;
   text-align: left;
   cursor: pointer;
-  outline: none;
 }
 /*n AXTRAS*/
 
@@ -120,7 +120,7 @@ h1 {
   grid-column: 1/4;
   grid-row: 3;
   margin: 1em 0.5em 1em 0em;
-  padding: 10px 10px;
+  padding: 10px 26px;
   height: 10px;
   display: flex;
   text-align: left;
