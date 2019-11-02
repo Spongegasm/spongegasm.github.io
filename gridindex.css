@@ -111,8 +111,12 @@ header {
     border-bottom: 0;
     border-right: 0;
   }
-  .sidenav a {float: left;}
-  div.content {margin-left: 0;}
+  [class*="sidenav"] {
+    width: 100%;
+  }
+  .header{
+    width: 100%;
+  }
 }
 /*main*/
 main {
