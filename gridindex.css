@@ -10,6 +10,10 @@ body {
   background-image: url("bgnew.png")
 }
 
+p {
+  padding-right: 80px;
+}
+
 header {
   grid-row: 1;
   grid-column: 1/4; /*refers to grid "tracks" - first 1 to last*/
