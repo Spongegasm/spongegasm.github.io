@@ -114,17 +114,6 @@ header {
   .sidenav a {float: left;}
   div.content {margin-left: 0;}
 }
-
-@media screen and (max-width: 400px) {
-  .sidenav{
-    border-bottom: 0;
-    border-right: 0;
-  }
-  .sidenav a {
-    text-align: center;
-    float: none;
-  }
-}
 /*main*/
 main {
   grid-row: 2;
