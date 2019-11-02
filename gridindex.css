@@ -10,7 +10,7 @@ body {
   background-image: url("bgnew.png")
 }
 
-p {
+.homedesc {
   padding-right: 80px;
 }
 
