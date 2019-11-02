@@ -12,9 +12,10 @@
         <link rel="stylesheet" href="gridindex.css">
         <link href="https://fonts.googleapis.com/css?family=Manjari&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+        <script type='text/javascript' src='//www.midijs.net/lib/midi.js'></script>
     </head>
 
-    <body>
+    <body onload="MIDIjs.play('sound/wonderwall.mid')">
       <!-- navigation -->
       <div class = "sidenav">
         <a class="skew1" href="#home">Home</a>
@@ -60,16 +61,3 @@
     </div>
     </body>
   </html>
-
-  <script type="text/javascript">
-  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-  </script>
-  <script type="text/javascript">
-  try {
-  var pageTracker = _gat._getTracker("UA-11486297-3");
-  pageTracker._trackPageview();
-  } catch(err) {}</script>
-  <script type='text/javascript' src='//www.midijs.net/lib/midi.js'></script>
-  <script>
-  MIDIjs.play('sound/wonderwall.mid');</script>	
