@@ -31,7 +31,6 @@ header {
   height: 0px;
   border-bottom: 620px solid #bb2245;
   border-right: 100px solid transparent;
-  color: black;
 }
 
 .sidenav a, .dropdownbtn {
@@ -109,15 +108,18 @@ header {
 
 @media only screen and (max-width: 500px) {
   .sidenav {
-    width: 100%;
-    height: auto;
-    position: relative;
+    border-bottom: 0;
+    border-right: 0;
   }
   .sidenav a {float: left;}
   div.content {margin-left: 0;}
 }
 
 @media screen and (max-width: 400px) {
+  .sidenav{
+    border-bottom: 0;
+    border-right: 0;
+  }
   .sidenav a {
     text-align: center;
     float: none;
