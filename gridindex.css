@@ -33,7 +33,7 @@ header {
   border-right: 100px solid transparent;
 }
 
-.sidenav a, .dropdownbtn {
+.sidenav a{
   padding: 8px 29px 8px 29px;
   margin-top: 20px;
   margin-bottom: 15px;
@@ -106,16 +106,23 @@ header {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  [class*="sidenav"] {
-    width: 100%;
-    border-bottom: 0;
-    border-right: 0;
-    padding: 8px 50px 8px 50px;
-    text-align:center;
+@media only screen and (max-width: 641px){
+  body {
+    display: grid;
+    grid-template-columns: 4fr;
+    grid-template-rows: 1fr;
+  }
+  .sidenav{
+    border: 0;
+    align: center;
+    grid-column: 2;
+    margin: 0;
+    top: 0;
+    justify-content: center;
+    position:static;
   }
 }
+
 /*main*/
 main {
   grid-row: 2;
