@@ -112,15 +112,15 @@ header {
     grid-template-columns: 4fr;
     grid-template-rows: 1fr;
   }
-  .sidenav{
+  .sidenav, .skew1, .skew2{
     border: 0;
-    align: center;
     grid-column: 2;
-    margin: 0;
-    top: 0;
-    justify-content: center;
-    position:static;
-  }
+    width: 100%;
+    height: auto;
+    position: relative;
+    }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
 }
 
 /*main*/
